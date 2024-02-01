@@ -7,7 +7,6 @@ try:
 except ValueError:
     print("integer wasn't given")
 
-
 try:
     answer = number1/number2
 
