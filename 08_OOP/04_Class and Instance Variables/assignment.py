@@ -30,17 +30,17 @@ class Rectangle:
         return 2 * self.__base + 2 * self.__height
     
  
- rectangle1 = Rectangle (4,3) 
+rectangle1 = Rectangle (4,3) 
 print("the base of rectangle is", rectangle1.get_base)
 print("the height of rectangle is", rectangle1.get_height)
 print("The perimeter is", rectangle1.get_perimeter)
-print("The area of rectange is", rectangle1.get_area.)
+print("The area of rectange is", rectangle1.get_area)
 
 rectangle2 = Rectangle (2,5)
 print("the base of rectangle is", rectangle2.get_base)
 print("the height of rectangle is", rectangle2.get_height)
 print("The perimeter is", rectangle2.get_perimeter)
-print("The area of rectange is", rectangle2.get_area.)
+print("The area of rectange is", rectangle2.get_area)
 
 
  
