@@ -25,6 +25,7 @@ class Rectangle:
 
     
     def __str__(self) -> str:
+<<<<<<< HEAD
         return "Rectangle of base:" + self.__base + ", height:" + self.__height
     
 rectangle1 = Rectangle (3,4) 
@@ -41,6 +42,11 @@ print("The perimeter is", rectangle2.get_perimeter)
 print("The area of rectange is", rectangle2.get_area)
 
 print(Rectangle.get.count())
+=======
+        #Rectangle with base:3, height:4
+        return "Rectangle with base:" + str(self.__base) + ", height:" + str(self.__height)
+    
+>>>>>>> 95cff81254d8eea278457a5508bdcf466f2d3f3e
 
 
 # YOUDO>  create two rectangles.  print their base, height, perimeter, and area
